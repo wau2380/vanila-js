@@ -1,5 +1,5 @@
 // <⚠️ DONT DELETE THIS ⚠️>
-import "./styles.css";
+
 const colors = ["#1abc9c", "#3498db", "#9b59b6", "#f39c12", "#e74c3c"];
 // <⚠️ /DONT DELETE THIS ⚠️>
 
@@ -13,6 +13,7 @@ const colors = ["#1abc9c", "#3498db", "#9b59b6", "#f39c12", "#e74c3c"];
 ✅ ALL function handlers should be INSIDE of "superEventHandler"
 */
 const title = document.getElementById("title");
+
 const superEventHandler = {
   Click: function () {
     title.style.color = colors[0];
